@@ -1,4 +1,3 @@
-// components/VideoBackground.tsx
 import React from "react";
 
 const VideoBackground: React.FC = () => {
@@ -9,7 +8,7 @@ const VideoBackground: React.FC = () => {
         Your browser does not support the video tag.
       </video>
       <div className="absolute bottom-0 left-0 w-full text-white text-center pb-8">
-        <h2 className="text-2xl font-bold">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
           I'll be notifying you as soon as I'm done! 📨
         </h2>
       </div>

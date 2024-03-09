@@ -116,12 +116,17 @@ import VideoBackground from "./VideoBackground";
 const AboutSection: React.FC = () => {
   return (
     <section id="about" className="relative">
+      {/* Video background component */}
       <VideoBackground />
+
       <div className="absolute inset-0 flex items-center justify-center text-white">
         <div className="text-center">
+          {/* Escaped single quotes in the heading */}
           <h1 className="text-6xl md:text-9xl font-bold">Apologies!</h1>
+
+          {/* Escaped single quotes in the subheading */}
           <h2 className="text-4xl font-medium">
-            I'm restructuring this site right now 🔨
+            I&apos;m restructuring this site right now 🔨
           </h2>
         </div>
       </div>
@@ -130,3 +135,4 @@ const AboutSection: React.FC = () => {
 };
 
 export default AboutSection;
+
