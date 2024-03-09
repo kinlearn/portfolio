@@ -1,0 +1,19 @@
+/* styles/VideoBackground.css */
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Set width to cover the entire viewport width */
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-container video {
+  width: 100%; /* Set width to cover the entire width of the container */
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
