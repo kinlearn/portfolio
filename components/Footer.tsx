@@ -29,7 +29,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://twitter.com/KinLearns"
+            href="https://x.com/AjinkyaKinhikar"
             rel="noreferrer"
             target="_blank"
           >
